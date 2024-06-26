@@ -11,7 +11,8 @@ with open(fpath, "r", encoding="utf-8") as f:
 
 # print(markdown_content)
 # Regular expression pattern to match JSON data
-json_pattern = r"`json\s*(\[\{.*?\}\])\s*`"
+# json_pattern = r"`json\s*(\[\{.*?\}\])\s*`"
+json_pattern = r"```json\s*([\s\S]*?)\s*```"
 
 # Extract the JSON data
 match = re.search(json_pattern, markdown_content, re.DOTALL)
