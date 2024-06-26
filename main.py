@@ -20,6 +20,6 @@ if match:
     print("Extracted JSON data:")
     print(json_data)
     data = json.loads(json_data)
-    print(f"{data=}")
+    print(f"SUCCESS!\n{data=}")
 else:
-    print("No valid JSON data found in the Markdown content.")
+    print("FAIL!\nNo valid JSON data found in the Markdown content.")
