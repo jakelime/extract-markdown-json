@@ -1,0 +1,14 @@
+```json
+[
+  {
+    "job_id": "j00001",
+    "input_date": "2024-06-26",
+    "planned_tat_days": 90
+  },
+  {
+    "job_id": "j00002",
+    "input_date": "2024-08-08",
+    "planned_tat_days": 120
+  }
+]
+```
